@@ -1,0 +1,4 @@
+cd C:\Users\Victor\environments\selenium_env\Scripts
+activate.bat
+
+python C:\Stepik\selenium\section2\lesson1step1.py
