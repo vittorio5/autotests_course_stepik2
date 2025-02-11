@@ -27,12 +27,12 @@ def test_stepik_authorization(browser, page_number):
     email = WebDriverWait(browser, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "#id_login_email"))
     )
-    email.send_keys("soda.inbox@mail.ru")
+    email.send_keys("***************")
     # находим поле пароля и вносим в него пароль
     passwrd = WebDriverWait(browser, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "#id_login_password"))
     )
-    passwrd.send_keys("Milkyway57")
+    passwrd.send_keys("**********")
     # заходим на сайт
     enter = browser.find_element(By.CSS_SELECTOR, ".sign-form__btn")
     enter.click()
